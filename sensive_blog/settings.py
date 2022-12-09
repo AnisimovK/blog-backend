@@ -1,5 +1,7 @@
 import os
 from environs import Env
+import pathlib
+
 
 env = Env()
 env.read_env()
@@ -105,3 +107,6 @@ MEDIA_URL = os.getenv('MEDIA_URL', '/media/')
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+print('STATIC_URL', STATIC_URL)
+print('STATICFILES_DIRS', STATICFILES_DIRS)
