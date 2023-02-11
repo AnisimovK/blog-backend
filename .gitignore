@@ -139,3 +139,8 @@ cython_debug/
 sqlite3_analyzer.exe
 sqlite3.exe
 sqldiff.exe
+
+.idea/
+.idea/vcs.xml
+
+media/
